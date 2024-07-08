@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+
+@font-face {
+    font-family: IRANsans;
+    font-style: normal;
+    font-weight: 900;
+    src: url("./IRANSansXFaNum-Regular.woff");
+    src: url("./IRANSansXFaNum-Regular.woff")format("woff");
+}
+
+@tailwind utilities;
