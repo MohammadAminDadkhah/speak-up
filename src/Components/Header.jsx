@@ -4,7 +4,7 @@ const Header = () => {
             <div className="font-body h-10 bg-gradient-to-r from-[#0052CC] via-[#5FD4AF] to-[#0052CC] ...  mt-3 p-1 hidden md:block">
                 <p className="text-center text-slate-50 mt-1">درس خوندن به راهه | بسته های آموزشی با بهترین قیمت</p>
             </div>
-            <div className="h-16 font-body lg:sticky top-0  bg-white container mx-auto" dir="rtl">
+            <div className="h-16 font-body lg:sticky top-0  bg-white container mx-auto z-50" dir="rtl">
                 <div className="pt-3 flex lg:flex-row  flex-col justify-between focus:opacity-20">
 
                     <div className="lg:basis-1/4  align-items-center justify-center mx-8">
