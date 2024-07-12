@@ -6,6 +6,8 @@ import Skype from "./Components/Skype.js.jsx";
 import Footer2 from "./Components/Footer2.jsx";
 import Academy from "./Components/Academy.jsx";
 import CourseList from "./Components/CourseList.jsx";
+import Scroll from "./Components/Scroll.jsx";
+import End from "./Components/End.jsx";
 
 function App() {
 
@@ -19,6 +21,8 @@ function App() {
             <Footer2 />
             <Academy />
             <CourseList />
+            <Scroll />
+            <End />
         </div>
     </>
   )
