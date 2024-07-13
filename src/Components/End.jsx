@@ -39,7 +39,33 @@ const End = () => {
                 <p className="text-[#0052CC]">۰۳۱ ۳۳۹۳ ۲۳۶6</p>
                 <img src={'src/assets/phone1.svg'} alt=""/>
             </div>
+
+            <div className="mx-8 flex">
+                <ul className="list-disc">
+                    <span>دسترسی سریع</span>
+                    <li className="mr-5 mt-4">صفحه اصلی</li>
+                    <li className="mr-5">دوره ها</li>
+                    <li className="mr-5">بسته ها</li>
+                    <li className="mr-5">مقالات</li>
+                    <li className="mr-5">شرایط و ضوابط</li>
+                </ul>
+                <img className="w-[13rem] mr-5" src={'src/assets/e.svg'} alt=""/>
+            </div>
+
+            <div className="bg-[#E2FAF4] mt-8 py-5">
+                <div className="flex justify-between mx-[30%]">
+                    <img src={'src/assets/110.svg'} alt=""/>
+                    <img src={'src/assets/111.svg'} alt=""/>
+                    <img src={'src/assets/112.svg'} alt=""/>
+                    <img src={'src/assets/113.svg'} alt=""/>
+                </div>
+                <p className="text-center mx-8 mt-4">
+                    تمامی حقوق مادی و معنوی این سایت برای آکادمی زبان آنلاین اسپیکاپ
+                    محفوظ میباشد.
+                </p>
+            </div>
         </div>
+
     );
 }
 export default End;

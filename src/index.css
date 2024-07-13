@@ -4,9 +4,25 @@
 @font-face {
     font-family: IRANsans;
     font-style: normal;
-    font-weight: 900;
+    font-weight: 500;
     src: url("./IRANSansXFaNum-Regular.woff");
     src: url("./IRANSansXFaNum-Regular.woff")format("woff");
 }
 
 @tailwind utilities;
+
+.articles div{
+    @apply snap-center bg-white rounded p-4 min-w-[80%] ;
+}
+
+.active {
+    @apply bg-[#1EB28F] text-[#FEFEFE] px-[.35rem] border-[#1EB28F] border-[0.1rem];
+}
+
+.diactive {
+    @apply bg-[#E2FAF4] text-[#1EB28F] px-[.35rem] border-[#1EB28F] border-[0.1rem];
+}
+
+.margin {
+    @apply sm:mx-[12%] mx-[8%];
+}
