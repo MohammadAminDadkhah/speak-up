@@ -17,27 +17,20 @@ const Header = () => {
                 <p className="text-center text-slate-50 mt-1">درس خوندن به راهه | بسته های آموزشی با بهترین قیمت</p>
             </div>
 
-            <div className="bg-[#FEFEFE] lg:sticky lg:top-0 z-50">
+            <div className="sm:bg-[#FEFEFE] lg:sticky lg:top-0 z-50">
                 <div
                     className="flex flex-col lg:flex-row lg:justify-between margin
-                           items-center h-16 font-body"
+                           lg:items-center h-16 font-body"
                     dir="rtl">
 
-                    <img className="lg:size-36 size-28 mt-5" src={'src/assets/logo.svg'} alt="Logo"/>
+                    <img className="lg:size-36 size-28 sm:mt-5 mt-3" src={'src/assets/logo.svg'} alt="Logo"/>
 
-                    <div className="flex flex-row w-full justify-between lg:hidden m-2">
+                    <div className="flex flex-row w-full justify-between lg:hidden mt-2">
                         <img src={'src/assets/menu.svg'} alt="menu"/>
 
                         <button className="rounded text-slate-50 bg-[#0052CC] p-2 px-6">ورود و ثبت نام</button>
                     </div>
-                    {/*<div className="flex flex-row items-end lg:hidden mt-5">*/}
-                    {/*    <img src={'src/assets/menu.svg'} alt="menu"/>*/}
-                    {/*    <button className="rounded text-slate-50 bg-[#0052CC] p-2 px-6 my-auto">*/}
-                    {/*        <label className='my-auto'>*/}
-                    {/*            ورود و ثبت نام*/}
-                    {/*        </label>*/}
-                    {/*    </button>*/}
-                    {/*</div>*/}
+
 
                     <div className="flex-row gap-6 justify-center my-auto hidden lg:flex">
                         <div className="text-[.9rem]" onClick={() => {
