@@ -2,22 +2,22 @@ const Academy = () => {
     return (
         <div className="flex mt-52 font-body justify-center flex-col m-8 sm:mx-[15%] items-center" dir="rtl">
             <div className="sm:hidden flex flex-col items-center mb-5">
-                <p>چرا اسپیکاپ؟</p>
-                <img className="w-[20%]" src={'src/assets/speakupunder.svg'} alt=""/>
+                <p className="text-lg">چرا اسپیکاپ؟</p>
+                <img className="w-[70%]" src={'src/assets/speakupunder.svg'} alt=""/>
             </div>
 
-            <div className="sm:flex hidden mt-[20%] flex-col items-center mb-20">
-                <p>سیستم آموزشی آکادمی زبان اسپیکاپ</p>
+            <div className="sm:flex hidden mt-[30%] flex-col items-center mb-20">
+                <p className="text-[1.5rem]">سیستم آموزشی آکادمی زبان اسپیکاپ</p>
                 <img className="w-[20%]" src={'src/assets/speakupunder.svg'} alt=""/>
             </div>
 
 
             <div className="flex flex-col sm:relative items-center mx-auto w-[100%]">
-                <img className="sm:absolute sm:top-0 sm:left-[2%] w-[60%] sm:w-[25%] lg:-top-[50%] sm:order-2"
+                <img className="sm:absolute sm:top-0 sm:left-[2%] lg:w-[21%] w-[60%] sm:w-[25%] lg:-top-[35%] sm:order-2"
                      src={'src/assets/boy2.svg'} alt=""/>
 
-                <div className="bg-[#23D0A6] mt-5 rounded-lg px-5 py-3 order-1 w-[100%]">
-                    <h1 className="text-center sm:text-start text-[#FEFEFE] text-[.9rem] mb-3 sm:ml-[30%]">
+                <div className="bg-[#23D0A6] mt-5 rounded-lg px-5 py-6 order-1 w-[100%]">
+                    <h1 className="text-center sm:text-2xl sm:text-start text-[#FEFEFE] text-[.9rem] mb-3 sm:ml-[30%]">
                         پلتفرم چند رسانه ای کتاب تعاملی اسپیکاپ
                         Speak Up Interactive Book
                     </h1>
@@ -42,11 +42,11 @@ const Academy = () => {
 
 
             <div className="hidden sm:flex flex-col sm:relative items-center mx-auto w-[100%] mt-24">
-                <img className="absolute sm:top-0 -right-[0%] sm:w-[40%] lg:-top-[25%]"
+                <img className="absolute sm:top-0 -right-[0%] mr-3 sm:w-[35%] lg:-top-[25%]"
                      src={'src/assets/2.svg'} alt=""/>
 
-                <div className="bg-[#E9861B] mt-5 rounded-lg px-5 py-3  w-[100%]">
-                    <h1 className="text-center sm:text-start text-[#FEFEFE] text-[.9rem] mb-3 mr-[40%]">
+                <div className="bg-[#E9861B] mt-5 rounded-lg px-5 py-6 w-[100%]">
+                    <h1 className="text-center text-2xl sm:text-start text-[#FEFEFE] mb-3 mr-[40%]">
                         کارگاه های زبان English workshops
                     </h1>
 
@@ -69,11 +69,11 @@ const Academy = () => {
 
 
             <div className="hidden sm:flex flex-col sm:relative items-center mx-auto w-[100%] mt-32">
-                <img className="sm:absolute sm:top-0 sm:left-[0%] sm:w-[40%] lg:-top-[50%] sm:order-2"
+                <img className="sm:absolute sm:top-0 sm:left-[0%] sm:w-[35%] lg:-top-[40%] ml-4 sm:order-2"
                      src={'src/assets/3.svg'} alt=""/>
 
-                <div className="bg-[#23D0A6] mt-5 rounded-lg px-5 py-3 order-1 w-[100%]">
-                    <h1 className="text-center sm:text-start text-[#FEFEFE] text-[.9rem] mb-3 sm:ml-[40%]">
+                <div className="bg-[#23D0A6] py-6 mt-5 rounded-lg px-5 order-1 w-[100%]">
+                    <h1 className="text-center text-[1.4rem] sm:text-start text-[#FEFEFE] mb-3 sm:ml-[40%]">
                         پلتفرم چند رسانه ای کتاب تعاملی اسپیکاپ
                         Speak Up Interactive Book
                     </h1>
@@ -96,11 +96,11 @@ const Academy = () => {
             </div>
 
             <div className="hidden sm:flex flex-col sm:relative items-center mx-auto w-[100%] mt-32">
-                <img className="absolute sm:top-0 right-[1%] sm:w-[36%] lg:-top-[35%]"
+                <img className="absolute sm:top-0 right-[2%] sm:w-[32%] lg:-top-[30%]"
                      src={'src/assets/4.svg'} alt=""/>
 
-                <div className="bg-[#E9861B] mt-5 rounded-lg px-5 py-3  w-[100%]">
-                    <h1 className="text-center sm:text-start text-[#FEFEFE] text-[.9rem] mb-3 mr-[40%]">
+                <div className="bg-[#E9861B] mt-5 rounded-lg px-5 py-6  w-[100%]">
+                    <h1 className="text-center sm:text-start text-[#FEFEFE] text-2xl mb-3 mr-[40%]">
                         پنل اختصاصی زبان آموز Student Zone
                     </h1>
 
@@ -121,11 +121,11 @@ const Academy = () => {
             </div>
 
             <div className="hidden sm:flex flex-col sm:relative items-center mx-auto w-[100%] mt-32">
-                <img className="sm:absolute sm:-top-5 sm:left-[3%] sm:w-[40%] lg:-top-[40%] sm:order-2"
+                <img className="sm:absolute sm:-top-5 sm:left-[4%] sm:w-[35%] lg:-top-[30%] sm:order-2"
                      src={'src/assets/5.svg'} alt=""/>
 
                 <div className="bg-[#23D0A6] mt-5 rounded-lg px-5 py-3 order-1 w-[100%]">
-                    <h1 className="text-center sm:text-start text-[#FEFEFE] text-[.9rem] mb-3 sm:ml-[40%]">
+                    <h1 className="text-center sm:text-start text-[#FEFEFE] text-2xl mb-3 sm:ml-[40%]">
                         سیستم نظارت و پشتیبانی Progress Monitoring System
                     </h1>
 

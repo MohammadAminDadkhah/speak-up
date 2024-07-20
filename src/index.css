@@ -5,8 +5,11 @@
     font-family: IRANsans;
     font-style: normal;
     font-weight: 500;
-    src: url("./IRANSansXFaNum-Regular.woff");
-    src: url("./IRANSansXFaNum-Regular.woff")format("woff");
+    src: url("./font/IRANSans.ttf");
+    src: url("./font/IRANSans.ttf")format("ttf");
+    src: url("./font/IRANSans_Bold.ttf");
+    src: url("./font/IRANSans_Bold.ttf")format("ttf");
+
 }
 
 @tailwind utilities;
@@ -24,5 +27,5 @@
 }
 
 .margin {
-    @apply sm:mx-[12%] mx-[8%];
+    @apply sm:mx-[11.2%] mx-[8%];
 }
