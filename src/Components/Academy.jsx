@@ -2,12 +2,12 @@ const Academy = () => {
     return (
         <div className="flex mt-52 font-body justify-center flex-col m-8 sm:mx-[15%] items-center" dir="rtl">
             <div className="sm:hidden flex flex-col items-center mb-5">
-                <p className="text-lg">چرا اسپیکاپ؟</p>
+                <p className="text-lg text-[#0052CC]">چرا اسپیکاپ؟</p>
                 <img className="w-[70%]" src={'src/assets/speakupunder.svg'} alt=""/>
             </div>
 
             <div className="sm:flex hidden mt-[30%] flex-col items-center mb-20">
-                <p className="text-[1.5rem]">سیستم آموزشی آکادمی زبان اسپیکاپ</p>
+                <p className="text-[1.5rem] text-[#0052CC]">سیستم آموزشی آکادمی زبان اسپیکاپ</p>
                 <img className="w-[20%]" src={'src/assets/speakupunder.svg'} alt=""/>
             </div>
 
@@ -17,7 +17,7 @@ const Academy = () => {
                      src={'src/assets/boy2.svg'} alt=""/>
 
                 <div className="bg-[#23D0A6] mt-5 rounded-lg px-5 py-6 order-1 w-[100%]">
-                    <h1 className="text-center sm:text-2xl sm:text-start text-[#FEFEFE] text-[.9rem] mb-3 sm:ml-[30%]">
+                    <h1 className="text-center sm:text-2xl sm:text-start text-[#FEFEFE] text-[.9rem] mb-3 sm:ml-[30%] font-semibold">
                         پلتفرم چند رسانه ای کتاب تعاملی اسپیکاپ
                         Speak Up Interactive Book
                     </h1>
@@ -46,7 +46,7 @@ const Academy = () => {
                      src={'src/assets/2.svg'} alt=""/>
 
                 <div className="bg-[#E9861B] mt-5 rounded-lg px-5 py-6 w-[100%]">
-                    <h1 className="text-center text-2xl sm:text-start text-[#FEFEFE] mb-3 mr-[40%]">
+                    <h1 className="text-center text-2xl sm:text-start text-[#FEFEFE] mb-3 mr-[40%] font-semibold">
                         کارگاه های زبان English workshops
                     </h1>
 
@@ -73,7 +73,7 @@ const Academy = () => {
                      src={'src/assets/3.svg'} alt=""/>
 
                 <div className="bg-[#23D0A6] py-6 mt-5 rounded-lg px-5 order-1 w-[100%]">
-                    <h1 className="text-center text-[1.4rem] sm:text-start text-[#FEFEFE] mb-3 sm:ml-[40%]">
+                    <h1 className="text-center text-[1.4rem] sm:text-start text-[#FEFEFE] mb-3 sm:ml-[40%] font-semibold">
                         پلتفرم چند رسانه ای کتاب تعاملی اسپیکاپ
                         Speak Up Interactive Book
                     </h1>
@@ -100,7 +100,7 @@ const Academy = () => {
                      src={'src/assets/4.svg'} alt=""/>
 
                 <div className="bg-[#E9861B] mt-5 rounded-lg px-5 py-6  w-[100%]">
-                    <h1 className="text-center sm:text-start text-[#FEFEFE] text-2xl mb-3 mr-[40%]">
+                    <h1 className="text-center sm:text-start text-[#FEFEFE] text-2xl mb-3 mr-[40%] font-semibold">
                         پنل اختصاصی زبان آموز Student Zone
                     </h1>
 
@@ -125,7 +125,7 @@ const Academy = () => {
                      src={'src/assets/5.svg'} alt=""/>
 
                 <div className="bg-[#23D0A6] mt-5 rounded-lg px-5 py-3 order-1 w-[100%]">
-                    <h1 className="text-center sm:text-start text-[#FEFEFE] text-2xl mb-3 sm:ml-[40%]">
+                    <h1 className="text-center sm:text-start text-[#FEFEFE] text-2xl mb-3 sm:ml-[40%] font-semibold">
                         سیستم نظارت و پشتیبانی Progress Monitoring System
                     </h1>
 

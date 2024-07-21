@@ -4,15 +4,52 @@
 @font-face {
     font-family: IRANsans;
     font-style: normal;
+    font-weight: 300;
+    src: url("./font/IRANSans_Light.ttf");
+    src: url("./font/IRANSans_Light.ttf")format("ttf");
+}
+
+@font-face {
+    font-family: IRANsans;
+    font-style: normal;
+    font-weight: 400;
+    src: url("./font/IRANSans_Medium.ttf");
+    src: url("./font/IRANSans_Medium.ttf")format("ttf");
+}
+
+@font-face {
+    font-family: IRANsans;
+    font-style: normal;
     font-weight: 500;
     src: url("./font/IRANSans.ttf");
     src: url("./font/IRANSans.ttf")format("ttf");
+}
+
+
+@font-face {
+    font-family: IRANsans;
+    font-style: normal;
+    font-weight: 600;
     src: url("./font/IRANSans_Bold.ttf");
     src: url("./font/IRANSans_Bold.ttf")format("ttf");
+}
 
+@font-face {
+    font-family: IRANsans;
+    font-style: normal;
+    font-weight: 700;
+    src: url("./font/IRANSans_Black.ttf");
+    src: url("./font/IRANSans_Black.ttf")format("ttf");
 }
 
 @tailwind utilities;
+
+.bold {
+    @apply font-bold;
+}
+.font-body {
+    @apply font-normal;
+}
 
 .articles div{
     @apply snap-center bg-white rounded p-4 min-w-[80%] ;

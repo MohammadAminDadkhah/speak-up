@@ -39,7 +39,7 @@ const Header = () => {
         <>
             <div
                 className="font-body h-10 bg-gradient-to-r from-[#0052CC] via-[#5FD4AF] to-[#0052CC] ...  mt-3 p-1 hidden lg:block">
-                <p className="text-center text-slate-50 mt-1">درس خوندن به راهه | بسته های آموزشی با بهترین قیمت</p>
+                <p className="text-center text-slate-50 font-semibold text-[1.2rem]">درس خوندن به راهه | بسته های آموزشی با بهترین قیمت</p>
             </div>
 
             <div className="lg:bg-[#FEFEFE] lg:sticky lg:top-0 z-50">

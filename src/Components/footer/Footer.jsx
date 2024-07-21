@@ -1,6 +1,5 @@
-import Title from "./Heading.jsx";
-import Heading from "./Heading.jsx";
-import FooterCard from "./FooterCard.jsx";
+import Heading from "../Heading.jsx";
+import FooterCard from "../FooterCard.jsx";
 
 const Footer = () => {
     return (
@@ -20,7 +19,7 @@ const Footer = () => {
 
                 <img className="h-10 snap-start" src={'src/assets/Vector3.svg'} alt=""/>
 
-                <FooterCard className="snap-start" text="انتخـاب روز و ساعت برای مشــــاوره رایگان" img="Group134.svg" mt={8} mt2={4}/>
+                <FooterCard className="snap-start" text="انتخـاب روز و ساعت برای مشــــاوره رایگان" img="Group134.svg" mt={4} mt2={4}/>
 
                 <img className="h-10 snap-start" src={'src/assets/Vector3.svg'} alt=""/>
 

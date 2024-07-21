@@ -12,7 +12,7 @@ const Body = () => {
                             <div className="xl:text-4xl sm:text-[1.8rem] text-3xl mb-6">
                                 <div className="flex flex-row gap-2 mb-3 mr-2 text-justify">
                                     یادگیری
-                                    <div className="font-semibold text-[#0052CC]">زبان انگلیسی</div>
+                                    <div className="text-[#0052CC] font-bold">زبان انگلیسی</div>
                                 </div>
 
                                 <div>در هر زمان و هر مکانی</div>
